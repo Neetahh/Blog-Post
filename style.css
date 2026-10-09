@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+#add-post-btn {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #dadada;
+}
+
+#blog-posts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blog-post {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 10px 0px 0px;
+}
+
+.blog-post h3 {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+.edit-btn {
+    border-radius: 5px;
+    margin: 0px 10px 0px 0px;
+    border: 1px solid black;
+    background-color: #dadada;
+    
+}
+
+.delete-btn {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #dadada;
+}
